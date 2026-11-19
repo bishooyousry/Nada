@@ -709,7 +709,7 @@ function pgContent(i){
  if(b.k==='cover')return '<div class="cover3"><div class="cv-top"><img class="lockup" alt="Skills Bank · Alpha Leader" src="'+LOCKUP+'"></div><div class="cv-d1"></div><div class="cv-photo" style="background-image:url('+COVERPHOTO+')"></div><div class="cv-d2"></div><div class="cv-d3"></div><div class="cv-d4"></div><div class="cv-title"><span>'+esc(LT(b.t))+'</span></div><div class="cv-tri"></div></div>';
  if(b.k==='back')return '<div class="backc"><span class="blogo" style="-webkit-mask-image:url('+brandLogo()+');mask-image:url('+brandLogo()+')"></span></div>';
  const dense=b.blocks.filter(x=>x.t==='person'||x.t==='banner').length>=2&&b.blocks.some(x=>x.t==='person');
- return '<div class="pgin'+(dense?' dense':'')+'"><div class="content">'+b.blocks.map(blockHTML).join('')+'</div>'+pixels()+'<div class="bigA" aria-hidden="true">A</div><div class="folio"><span class="flogo" style="-webkit-mask-image:url('+brandLogo()+');mask-image:url('+brandLogo()+')"></span><span>'+(i+1)+'</span></div></div>'}
+ return '<div class="pgin'+(dense?' dense':'')+'"><div class="content">'+b.blocks.map(blockHTML).join('')+'</div>'+'<div class="bigA" aria-hidden="true">A</div><div class="folio"><span class="flogo" style="-webkit-mask-image:url('+brandLogo()+');mask-image:url('+brandLogo()+')"></span><span>'+(i+1)+'</span></div></div>'}
 function bkRender(){
  const bk=$('bkSpread');if(!bk)return;const n=bkN();
  if(bkSingle()){bk.className='spread single';bk.innerHTML='<div class="pg">'+pgContent(BK.i)+'</div>';$('bkCount').textContent=(BK.i+1)+' / '+n;$('bkPrev').disabled=BK.i<=0;$('bkNext').disabled=BK.i>=n-1}
