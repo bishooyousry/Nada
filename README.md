@@ -1,14 +1,10 @@
 # Nada's Case: the booklet as an interactive book, plus the online activities (Skills Bank, The Alpha Leader)
 
-One HTML file, English and Arabic (RTL). **Skills Bank colours**: navy #080d24, mint #51ebcf, gold #ffd36f, with the Skills Bank logo (top bar, page footers, back cover) and the Skills Bank | Alpha Leader lockup on the book cover.
+One HTML file, English and Arabic (RTL), in the official **Skills Bank palette**: navy #080828, white #EBF4FF, soft blue #4D88E8, cyan #40BDA9, orange #FFBC3A, red #F26A44. Skills Bank logo in the top bar, on every book page and on the back cover; the Skills Bank | Alpha Leader lockup on the book cover.
 
 ## The book = the printed booklet
-- **Same 8 pages, same text** as the booklet PDFs (English and Arabic). Nothing removed. Page order is the reading order of the folded booklet: cover, Meet Nada, Morning Reflections, Team Meeting Challenges, Individual Team Dynamics (Ahmed), Sara and Sherif, Rana and Your Role, back cover.
-- **Same pictures:** Nada's photo from the booklet cover; Ahmed, Sara, Sherif and Rana from your case cards. The back cover is one colour with the Skills Bank logo.
-- Two-page spreads with a page turn on desktop, single pages on phones (swipe, arrows, keyboard, Contents menu). Opens from the start screen and from the Story button on every screen.
-
-### Text fidelity
-Word for word, including the original wording oddities. Only formatting was normalised (spaces before punctuation, "seeksfreedom", "10 Am", a missing closing quotation mark, broken fi/fl characters). The Arabic PDF is an image, so the Arabic was typed from the pages: please proofread it once.
+Same 8 pages and the same text as the booklet PDFs (English and Arabic), nothing removed, in reading order: cover, Meet Nada, Morning Reflections, Team Meeting Challenges, Individual Team Dynamics (Ahmed), Sara and Sherif, Rana and Your Role, back cover (one colour with the Skills Bank logo). Same pictures: Nada's photo from the booklet cover and the four team photos from your case cards. Page turn on desktop, single pages on phones, Contents menu; opens from the start screen and from the Story button on every screen.
+Text is word for word; only formatting was normalised (spaces before punctuation, "seeksfreedom", "10 Am", a missing closing quotation mark, broken fi/fl characters). The Arabic PDF is an image, so the Arabic was typed from the pages: please proofread it once.
 
 ## Blocks inside the same HTML
 | Block | Day | Time |
